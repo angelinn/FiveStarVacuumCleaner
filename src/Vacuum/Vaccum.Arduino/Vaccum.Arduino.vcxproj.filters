@@ -25,5 +25,8 @@
     <ClInclude Include="Movement\Motor.h">
       <Filter>Movement</Filter>
     </ClInclude>
+    <ClInclude Include="Movement\MovementEngine.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
