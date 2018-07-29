@@ -5,6 +5,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Sensors">
+      <UniqueIdentifier>{f2d7bd0a-e0d6-4e9b-aa7b-a9acc483c545}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Vaccum.Arduino.ino" />
@@ -12,6 +15,9 @@
   <ItemGroup>
     <ClInclude Include="__vm\.Vaccum.Arduino.vsarduino.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensors\UltrasoundSensor.h">
+      <Filter>Sensors</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
